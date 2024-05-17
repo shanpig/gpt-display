@@ -1,0 +1,81 @@
+export const USERS = [
+  {
+    id: "1",
+    name: "John",
+    age: 30,
+    title: "Front end engineer",
+    active: true,
+  },
+  { id: "2", name: "Jane", age: 25, title: "QA", active: true },
+  {
+    id: "3",
+    name: "Doe",
+    age: 35,
+    title: "Back end engineer",
+    active: false,
+  },
+  {
+    id: "4",
+    name: "Smith",
+    age: 40,
+    title: "DevOps",
+    active: true,
+  },
+  {
+    id: "5",
+    name: "Alex",
+    age: 45,
+    title: "Manager",
+    active: false,
+  },
+  {
+    id: "6",
+    name: "Sam",
+    age: 50,
+    title: "CEO",
+    active: true,
+  },
+];
+
+export const COURSES = [
+  {
+    id: "math",
+    name: "Math",
+    credit: 3,
+    teacher: "Mr. A",
+    courseLengthInSeconds: 3600,
+    published: true,
+  },
+  {
+    id: "science",
+    name: "Science",
+    credit: 4,
+    teacher: "Mr. B",
+    courseLengthInSeconds: 7200,
+    published: false,
+  },
+  {
+    id: "history",
+    name: "History",
+    credit: 2,
+    teacher: "Mr. C",
+    courseLengthInSeconds: 5400,
+    published: true,
+  },
+  {
+    id: "english",
+    name: "English",
+    credit: 3,
+    teacher: "Mr. D",
+    courseLengthInSeconds: 4500,
+    published: false,
+  },
+  {
+    id: "art",
+    name: "Art",
+    credit: 1,
+    teacher: "Mr. E",
+    courseLengthInSeconds: 2700,
+    published: true,
+  },
+];
